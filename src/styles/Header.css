@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+    margin-left: 5vw;
+}
+.left-side{
+    width: 45%;
+    padding-top: 30vh;
+  }
+
+  .left-side p {
+      opacity: 0.6;
+  }
+  
+  .left-side > Button {
+    margin-top: 20px;
+  }
+  
+  .right-side{
+    width: 50%;
+    padding-top: 12vh;
+  }
